@@ -1,0 +1,150 @@
+/* Réinitialisation des marges et padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style général du corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style pour le header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Section Accueil */
+#accueil {
+    background-color: #e0e0e0;
+    padding: 50px;
+    text-align: center;
+}
+
+.accueil-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 150px; /* Ajuste selon la taille de ton image */
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.accueil-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.accueil-text p {
+    font-size: 18px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Section Projets */
+#projets {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#projets h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.projet {
+    margin-bottom: 30px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projet h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.projet p {
+    font-size: 16px;
+    color: #666;
+}
+
+.projet a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.projet a:hover {
+    background-color: #555;
+}
+
+/* Section Contact */
+#contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#contact a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#contact a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
